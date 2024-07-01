@@ -42,7 +42,29 @@
             </div>
 
             <ul class="opções">
-                <li class="opções__item">Categorias</li>
+                <input type="checkbox" id="opções-menu" class="opções__botao">
+                <label for="opções-menu">    
+                    <li class="opções__item">Categorias</li>
+                </label>
+
+                <ul class=lista-menu>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Programação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Front-end</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Business</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Design & ux</a>
+                    </li>
+                </ul>
+                
                 <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
                 <li class="opções__item"><a href="#" class="opções__link">Minha Estante</a></li>
             </ul>
@@ -191,8 +213,10 @@
         </section>
 
         <section class="contato">
+            <div class="contato__descricao">
                 <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
                 <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
                 <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
         </section>
 
@@ -205,4 +229,4 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="carrossel.js" ></script>
     </body>
-</html>
+</html> 
